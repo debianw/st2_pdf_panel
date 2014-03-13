@@ -1,0 +1,7 @@
+{
+  "name": "st2pdf",
+  "version": "0.0.1",
+  "devDependencies": {
+    "express": "^3.4.8"
+  }
+}
