@@ -7,7 +7,7 @@ Ext.Loader.setConfig({
 
 Ext.application({
 
-    name  : 'No-Toolbar Demo',
+    name  : 'app',
     views : [
         'Ext.ux.panel.PDF'
     ],

@@ -1,5 +1,6 @@
 Ext.Loader.setConfig({
     enabled: true,
+    disableCaching: false,
     paths: {
         'Ext.ux': '../../ux'
     }
@@ -7,7 +8,7 @@ Ext.Loader.setConfig({
 
 Ext.application({
 
-    name  : 'PDF Viewer Demo',
+    name  : 'app',
     views : [
         'Ext.ux.panel.PDF'
     ],
