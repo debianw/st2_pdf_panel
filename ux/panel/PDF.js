@@ -958,6 +958,11 @@ Ext.define('Ext.ux.panel.PDF', {
 
     Ext.destroy(me.getScrollable(), me.figEl, me.canvasEl);
 
+    if (me.pdfDoc) {
+      me.pdfDoc.destroy();
+      delete me.pdfDoc;
+    }
+
     me.callParent();
   },
 
